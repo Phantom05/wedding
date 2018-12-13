@@ -49,7 +49,7 @@ gulp.task("babel", () =>{
   return gulp.src(SRC.JS)
   .pipe(babel())
   .pipe(jsminify())
-  .pipe(obf())
+  // .pipe(obf({replaceMethod:obf.LOOK_OF_DISAPPROVAL}))
   .pipe(sourcemaps.init())
   .pipe(concat('bundle.js'))
   .pipe(sourcemaps.write())
