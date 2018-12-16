@@ -30,7 +30,7 @@ let DIST ={
   CSS:"./public/dist/",
   JS:"./public/dist/",
   IMG:"./public/dist/"
-};
+}; 
 
 gulp.task("htmlmin", ()=>{
   return gulp.src(SRC.HTML)
