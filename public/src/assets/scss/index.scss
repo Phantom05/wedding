@@ -1,18 +1,46 @@
-h1{
-  span{
-    color: red;
-  }
+body{
+  background: gray;
 }
+.login_form_title{
+  margin: 20px 0;
+  font-size: 24px;
+  text-align: center;
+}
+.login_form{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+.login_input{
+  display: block;
+  width: 240px;
+  height: 24px;
+  padding: 5px;
+  margin: 5px auto;
+  border: 1px solid #ececec;
 
-h2{
-  color: red;
 }
-h1{
-  span{
-    color: red;
-  }
+.login_input::placeholder{
+  color: #b9b9b9;
+  font-size: 14px;
 }
-
-h2{
-  color: red;
+.login_bt_box{
+  text-align: center;
+}
+.login_submit_bt{
+  display: block;
+  width: 255px;
+  border-radius: 5px;
+  background: rgb(5, 111, 172);
+  color: #fff;
+  border: 0;
+  height: 32px;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
 }

@@ -21,7 +21,7 @@ const $ = require("gulp-load-plugins")({
 
 let SRC = {
   HTML:"./public/src/**/*.{html,htm}",
-  SCSS:"./public/src/**/*.scss",
+ SCSS:"./public/src/**/*.scss",
   JS:"./public/src/**/*.js",
   IMG:"./public/dist/**/*.{jpg,png,gif,svg}"
 };
